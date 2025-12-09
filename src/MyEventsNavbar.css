@@ -1,0 +1,68 @@
+
+
+.my-events-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+   margin-left:0px;
+   margin-top: -20px;
+    background-image: url('./assets/Pre_planning.png'); 
+    background-size: cover; /* or use 'contain' if preferred */
+    margin-bottom: 0px;
+    background-position: center bottom; /* Adjusted to show bottom part */
+    background-repeat: no-repeat;
+    width: 100%; /* Adjusted to cover entire width */
+    height: 90px; /* Adjusted height to ensure visibility */
+    max-width:100%;
+    color: white;
+    
+    }
+    
+    .my-events-navbar .my-events-text h2 {
+      font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+      /* margin-left: 18px;
+      margin-bottom: 5px; */
+     
+      color: #007272; 
+    }
+    .new-event-page {
+      display: flex;
+      /* height: 100vh; */
+      /* background-color: #f0f4f8; */
+    }
+    
+    .main-content {
+      
+    }
+    
+    .event-form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    
+    .save-event-button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .save-event-button:hover {
+      background-color: #218838;
+    }
+    
+    
+    
+    

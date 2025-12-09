@@ -1,0 +1,26 @@
+
+.MeetingBoxWrp{
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);    
+  padding: 10px;
+  border: #ced4da solid 1px;
+  margin-bottom: 0px;
+}
+.rowTitle{
+  font-size: 18px!important;
+  font-weight: 600!important;
+}
+
+  .Meetingtable th {
+    background:#ebecee;
+    color:#000000;
+    font-weight:600;
+}
+.Meetingtable th, .Meetingtable td {
+   font-size:14px;
+   padding:5px 5px;
+   border: 1px solid #dee2e6;
+}
+
+.mrgn4px{
+  margin-left: 4px;
+}

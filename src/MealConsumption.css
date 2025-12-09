@@ -1,0 +1,99 @@
+.form-container {
+  
+}
+
+
+.Page_Title h3 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.save {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #007272;
+  border: 1px solid;
+  text-align: center;
+  margin: 0px;
+  width: 80px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #00000040, 2px 4px 0px 0px #000000bd;
+  cursor: pointer;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.save:hover {
+  background-color: #bbb; }
+
+
+button:hover {
+  background-color: #005353;
+}
+.fa-info-circle{
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.tooltip-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.tooltip-icon .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-icon .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-icon:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Serves_Txt {
+  
+  width:100%;
+  color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+  
+}

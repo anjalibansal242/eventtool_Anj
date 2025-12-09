@@ -1,0 +1,69 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  pointer-events: auto;
+}
+
+.modal .modal-dialog {
+  z-index: 1060;
+
+
+}
+
+.for-flex{
+  height: 12vh;
+  display: flex;
+
+ 
+}
+
+.speedo{
+  margin-top:0px;
+}
+
+.emission-info {
+  text-align: center;
+  margin-top: 20px;
+
+  
+}
+
+
+.emission-info p{
+  margin-left: 0px;
+ 
+}
+  
+ 
+  @media (max-width: 460px) {
+  .emission-info {
+      font-size: 2rem; 
+    }
+  
+    .for-flex {
+      flex-direction: column; 
+      height: auto;
+    }
+  
+    .speedo {
+      margin-top: 10px;
+    }
+  
+    .emission-info p {
+      margin-top: -90px;
+      font-size: 18px; 
+    }
+
+    
+   
+  }
+  

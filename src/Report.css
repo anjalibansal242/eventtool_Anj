@@ -1,0 +1,659 @@
+.report-container {
+  display: flex;
+}
+
+.main-content {
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.report-buttons {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.report-button {
+  background-color: #007272; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 180px;
+  margin-top: -10px;
+}
+
+.report-button:hover {
+  background-color: #005353; 
+}
+
+
+.left_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.left_container img{
+  width: 100%;
+}
+
+
+.left_container_Txt {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  background: #29AD76;
+  opacity: 0.8;
+  padding: 100px 50px;
+
+
+}
+.left_container_Txt h1 {
+  font-size: 38px !important;
+ margin-top: -35px !important;
+ margin-bottom: 120px;
+}
+.carbon-footprint-image {
+  width: 100%;
+  height: 900px; 
+  background-image: url('../src/assets/home-pic.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  
+}
+.GreenButton {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  float: right;
+  margin-right: 120px;
+  background: #007272;
+  margin-left: 10px;
+  height: 40px;
+  margin-top: -39px;
+}
+.page-break {
+page-break-before: always;
+}
+
+
+.logoWrp {
+  height: 600px;
+  padding-top: 20px;
+}
+.greenBg {
+  background: #29AD76;
+  opacity: 0.8;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.bigTitle {
+  padding: 0px 100px;
+  text-align: center;
+}
+.bigTitle h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.greenBg .BottomTxt {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 80px 0px;
+}
+.PageTitleLogo {
+  margin: 50px 0px 50px 0px;
+}
+.GreenBoxTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 35px;
+  /* position: relative; */
+}
+.GreenBoxTitle::before {
+  display: block;
+  content: '';
+  width: 40px;
+  height: 30px;
+  background: #29AD76;
+  position: absolute;
+  left:0px;
+}
+.page2 {margin: 0;}
+.mainTxt {
+  font-size: 16px;
+  text-align: justify;
+  margin: 20px 10px 30px 35px;
+}
+
+.mainTxt ul li{
+  line-height: 30px;
+}
+.roungImg {
+  border-radius: 10%;
+  border: #29AD76 solid 10px;
+  margin-bottom: 20px;
+}
+.GreenBox {
+  border-radius: 20%;
+  background: #29AD76;
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+.GreenBox ul {
+  margin: 0;
+}
+.GreenBox ul li {
+  margin-left: 100px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  list-style-type: disc; 
+}
+
+
+.ImgWrp {
+  position: relative;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.textWrp {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  background:#007272;
+  color:#ffffff;
+  padding: 10px;
+  font-size: 14px;
+  min-width: 200px;
+  text-align: center;
+  margin-right: -20px;
+}
+@media print {
+  .no-pdf {
+    display: none !important;
+  }
+}
+
+.editableText {
+  border: none !important;
+  padding: 0px !important;
+  width: 100%; 
+  max-width: 200px;
+  font-size: 16px !important; 
+  text-align: center !important;
+  background-color: #007272; 
+  color:#ffffff;
+}
+
+.inputField.no-border {
+  border-bottom: none !important; 
+}
+
+.inputField:focus {
+  outline: none;
+}
+.PreEvent, .DuringEvent, .PostEvent{
+  background: #DEE7D1;
+  min-height: 290px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.PreEvent ul li, .DuringEvent ul li, .PostEvent ul li{
+  line-height: 40px;
+  font-size: 18px;
+}
+
+
+
+.DuringEvent{
+  background: #D2E4E2;
+}
+.PostEvent{
+  background: #D8D3E0;
+}
+
+.no-font-size-change {
+  font-size: 14px;
+  color: #555; /* Adjust the color for body text */
+}
+
+.blueClr {
+  color: #007BFF; /* Adjust the color for blue text */
+}
+
+.event-duration,
+.travel-details {
+  font-size: 14px;
+  color: #555; /* Subtle color for description text */
+}
+
+.event-duration {
+  margin-left: 5px; /* Add a small gap between "event" and "duration" */
+}
+
+.travel-details {
+  margin-left: 5px; /* Add a small gap between "travel" and details */
+}
+
+.PreEvent .title, .DuringEvent .title, .PostEvent .title{
+  text-align: center;
+  font-weight: 700;
+  background: #9BBB59;
+  padding: 10px 0px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.DuringEvent .title{
+  background: #5EAFA6;
+}
+.PostEvent .title{
+  background: #8064A2;
+}
+
+.table th{
+    color: #ffffff;
+   
+}
+.table th, .table td {
+    padding:5px 5px;
+    vertical-align:middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.blueClr{
+  color: #008CC6;
+}
+
+#footer{
+  color: #ffffff;
+background: #29AD76;
+padding:20px;
+margin-top:20px;
+}
+
+#footer td{
+padding-right:20px;
+}
+
+#footer td:nth-child(2) {
+  
+border-left:#ffffff solid 1px;
+}
+.uploadBox {
+  border: 2px dashed #ccc; 
+  padding: 20px; 
+  width: 300px; 
+  height: 200px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9; 
+  cursor: pointer; 
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  margin-left: 350px;
+}
+
+.uploadLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer; 
+}
+
+.fileInput {
+  display: none; 
+}
+
+.uploadBox span {
+  color: #888;
+  font-size: 16px; 
+  
+}
+.uploadBox1 span {
+  color: #888;
+  font-size: 16px; 
+  
+}
+
+.inputField {
+  border: none !important;
+  /* border-bottom: 1px solid white !important; */
+  width: 70% !important; 
+  padding: 5px 0;
+  font-size: 16px; 
+  color: white; 
+  background-color: transparent; 
+  margin-left: 30px;
+
+}
+.inputField::placeholder {
+color: white; 
+font-size: 16px;
+}
+
+.inputField:focus {
+  outline: none;
+  /* border-bottom: 1px solid white !important;  */
+ /* Keep the border style on focus */
+}
+
+.readOnlyField {
+  background-color: transparent; 
+  font-weight: 400; 
+  cursor: not-allowed; 
+  font-size: 18px !important;
+
+}
+
+/* Styles for editable input fields */
+.editableField {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px !important;
+  cursor: text; 
+  border-bottom: 1px solid white !important; 
+
+}
+.GreenBox ul {
+  padding-left: 0; 
+}
+
+.GreenBox li {
+  list-style-type: none; 
+}
+
+.ImgWrp {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.uploadBox {
+  display: block;
+  width: 400px;
+  height: 250px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  line-height: 300px;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.uploadBox:hover {
+  border-color: #777;
+}
+
+.fileInput {
+  display: none; 
+}
+
+.textWrp {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white; 
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px; 
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.image-box {
+  flex: 1;
+  min-width: 200px; 
+  max-width: 300px; 
+  position: relative;
+}
+
+.uploadBox {
+  display: block;
+  cursor: pointer;
+}
+
+.fileInput {
+  display: none; 
+}
+
+.image-preview {
+  width: 100%;
+  height: 150px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.ImgWrp {
+position: relative;
+width: 400px;
+height: 250px;
+overflow: hidden;
+/* border: 1px solid #ccc;  */
+border: 2px dashed #ccc; 
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f9f9f9;
+}
+
+.editableText::placeholder {
+color: white; /* Set placeholder text color to white */
+opacity: 1; /* Ensure full opacity */
+}
+/* styles.css */
+.ImgWrp1 {
+position: relative;
+width: 80%;
+height: 600px; /* Adjust as needed */
+margin-left: 80px;
+margin-top: -20px;
+margin-bottom: 30px;
+border: 1px dashed #ccc;
+background-color: #f9f9f9cc;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.ImgWrp1 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.ImgWrp1.no-background {
+border: none;
+background-color: transparent;
+}
+
+
+.ImgWrp img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.ImgWrp.no-background {
+border: none;
+background-color: transparent;
+}
+
+.uploadBox1 {
+
+position: absolute;
+top: 0;
+left: 0;
+width: 80%;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent; 
+cursor: pointer;
+visibility: visible;
+}
+
+.uploadBox {
+position: absolute;
+top: 0;
+left: 0;
+width: 450px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent; 
+cursor: pointer;
+visibility: visible;
+}
+.uploadBox1.hidden {
+visibility: hidden;
+}
+.uploadBox.hidden {
+visibility: hidden;
+}
+
+
+.fileInput {
+display: none;
+border: none !important;
+  outline: none !important; 
+}
+
+.textWrp {  
+margin-top: 10px;
+text-align: center;
+}
+.chart-table-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 15px; /* Add some space between the chart and the table */
+}
+
+.chart-section {
+flex: 1;
+
+}
+
+.table-section {
+flex: 1; /* Table takes up equal space */
+overflow-x: auto;
+}
+
+table {
+width: 100% !important;
+border-collapse: collapse;
+}
+
+table th,
+table td {
+border: 1px solid #ddd;
+padding: 8px;
+font-size: 12px;
+vertical-align: top !important;
+}
+
+table th {
+background-color: #f2f2f2;
+text-align: left;
+
+}
+
+table tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+table tr:hover {
+background-color: #ddd;
+}
+
+
+.fa-info-circle{
+font-size: 15px;
+color: #5a5a5a;
+cursor: pointer;
+}
+.tooltip-icon {
+position: relative;
+display: inline-block;
+cursor: pointer;
+margin-left: 5px;
+}
+
+.tooltip-icon .tooltip-text {
+visibility: hidden;
+width: 260px;
+background-color: #555;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 125%; /* Position the tooltip above the icon */
+left: 50%;
+margin-left: -100px;
+opacity: 0;
+transition: opacity 0.3s;
+font-size: 12px;
+}
+
+.tooltip-icon .tooltip-text::after {
+content: "";
+position: absolute;
+top: 100%; /* At the bottom of the tooltip */
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-icon:hover .tooltip-text {
+visibility: visible;
+opacity: 1;
+}

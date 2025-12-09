@@ -1,0 +1,179 @@
+
+body, html {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ecoindex {
+  display: flex;
+}
+
+.sprout {
+  height: 50px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.sprout.collapsed {
+  height: 30px; 
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: #007272;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+  height: 100%; 
+  border: 1px solid #007272;
+  padding: 10px;
+}
+
+.collapse-button {
+  align-self: flex-end;
+  margin-top: 5px;
+  background: none;
+  color: #007272;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.profile.collapsed .profile-img {
+  width: 35px;
+  height: 35px;
+  margin-left: 0;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  background: url('/src/assets/profileImg.jpg') no-repeat center center;
+  background-size: cover;
+  margin-left: 1px;
+}
+
+.profile p {
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  font-weight: bold;
+  color: #007272;
+}
+
+.profile span {
+  font-size: 12px;
+  color: #256161;
+}
+
+nav ul {
+  font-style: normal;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0px 0px 10px 0px;
+}
+
+nav ul li a {
+  color: #007272;
+  font-size: 14px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+  color: #007272;
+  text-decoration: none;
+}
+
+nav ul li a .svg-inline--fa {
+  margin-right: 10px;
+}
+
+nav ul li a .icon-collapsed {
+  width: 25px;
+  height: 25px;
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.icon-collapsed {
+  width: 20px;
+  height: 20px;
+  margin-left: -9px;
+}
+
+.logout {
+  margin-top: auto;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logout button {
+  font-weight: normal;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #007272;
+  border: none !important;
+  border-radius: 3px;
+  width: 100%; 
+}
+
+.logout .svg-inline--fa {
+  margin-right: 0px;
+}
+
+.content {
+  flex: 1;
+  margin-top: 0px;
+  margin-left: 190px;
+ 
+  width: 100%;
+  overflow-y: auto;
+  height: 100vh;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.collapsed + .content {
+  margin-left: 50px;
+}
+

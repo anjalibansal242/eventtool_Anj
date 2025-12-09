@@ -1,0 +1,99 @@
+/* AddEvent.css */
+
+.new-event-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.subcontainer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.formdata input {
+    flex: 2;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border: 1px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(7, 7, 7, 0.4);
+    outline: none;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    font-size: 10px; /* Ensure input fields take the remaining space */
+}
+
+.formdata select {
+    flex: 2;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(7, 7, 7, 0.4);
+    outline: none;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    font-size: 10px;
+}
+.tooltip-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.tooltip-icon .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-icon .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-icon:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

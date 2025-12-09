@@ -1,0 +1,152 @@
+
+#pageWrp {  
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('./assets/Landingpage.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  
+}
+.sprout{
+  margin-top: 30px!important;
+}
+.Divleft{
+  margin: 0px;
+  float: left;
+}
+
+.DivRgtLink{
+  margin: 0px;
+  float: right;
+}
+.DivRgtLink a{
+  font-size:18px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.text-section {
+  text-align: center;
+  color: rgb(62, 62, 62); 
+  margin-top: 30px;
+  
+  
+}
+
+.text-section p {
+  margin-bottom: 20px;
+  color: #004949;
+ 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+}
+
+.text-section h1 {
+  /* text-transform: uppercase; */
+  line-height: 45px;
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+
+
+
+
+.button1 {
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #004949;
+  color: #fff;
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s;
+  font-size: 17px;
+}
+
+.button1__icon-wrapper {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.button1:hover .button1__icon-wrapper {
+  color: #fff;
+  background-color: #000;
+}
+
+.button1__icon-svg--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button1:hover .button1__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button1:hover .button1__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+
+.Powered{
+  margin-top: 100px;
+  font-size: 14px;
+  color: #3b3b3b;
+  text-align: center;
+}
+
+.Powered a{
+  
+  color: #3b3b3b;
+}
+
+
+@media screen and (max-width: 768px) {
+  .text-section {  
+    margin-top: 20px;
+    
+  }
+  
+  .text-section h1 {
+    /* text-transform: uppercase; */
+    line-height:30px;
+    margin-bottom:20px;
+    font-size: 18px;
+  }
+  .Powered{
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .Powered a{    
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,230 @@
+
+
+.main-content {
+    
+}
+.maincontainer{
+  max-width:600px;
+  background-color: #ffffff;
+  padding:10px;
+  
+}
+
+.subcontainer {
+  align-content: flex-start;
+}
+
+.firstform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+.firstform h3 {
+  font-size: 1.5em;
+  color: #3d3d3d;
+}
+.formdata {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.location-input-wrapper {
+position: relative;
+display: flex;
+align-items: center;
+}
+.location-input {
+  flex: 2;
+  width: 180px;
+  padding-left: 30px; 
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  max-width: 200px;
+  padding: 7px;
+  font-size: 0.8em;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  position: relative;
+}
+.location-input:focus {
+  border-color: #007272;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(147, 147, 147, 0.5);
+}
+
+.location-input:focus::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid transparent;
+  border-top-color: #00ff00;
+  border-radius: 4px;
+  animation: run-border 2s linear infinite;
+}
+@keyframes run-border {
+  0% {
+    border-top-color: #007270;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  25% {
+    border-top-color: transparent;
+    border-right-color: #007270;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #00ff00;
+    border-left-color: transparent;
+  }
+  50% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: #00ff00;
+      border-left-color: transparent;
+    }
+    75% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: #00ff00;
+    }
+    100% {
+      border-top-color: #00ff00;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+  
+  .location-icon {
+      position: absolute;
+      left: 170px;
+      color: #007272;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .location-input:focus + .location-icon {
+      transform: scale(1.2);
+    }
+    
+    
+    .location-icon:hover {
+      transform: scale(1.2);
+    }
+    
+.eventSpace {
+display: flex;
+gap: 10px;
+}
+
+.mainMealsServed {
+display: flex;
+flex-direction: row;
+gap: 40px;
+}
+
+.mainWaterProvision {
+display: flex;
+flex-direction: row;
+gap: 40px;
+}
+.MealsServed,
+.WaterProvision {
+  
+}
+
+.EmissionBoundary {
+ 
+  gap: 10px;
+}
+
+.mainEmissionBoundary {
+  display: flex;
+  
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: 0; 
+}
+
+.SubEmissionBoundary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.child-container {
+  margin-left: 20px;
+}
+
+.sub-child-container {
+  
+}
+
+.save-button, .next-button {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 500;
+    padding:0px 20px;
+    height: 36px;
+    border-radius: 3px;
+    background: #007272;
+    color:#ffffff;
+}
+
+
+    .next-button{
+        margin-left:10px;
+    }
+
+
+    .save-button:hover, .next-button:hover {
+        color: #ffffff !important;
+    }
+
+.mealsServed, .emissioncheckbox {
+    margin-left: 20px !important;
+}
+.mealsServed p, .emissioncheckbox p {
+    margin-bottom:5px!important;
+}
+
+.access-restricted {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #007b5e;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.checkbox-group label, .radio-group label{
+  display:block!important  ;
+  font-weight: normal;
+}
+.checkbox-group , .radio-group{
+  margin-left: 20px;
+  
+}
+
+.sub-checkbox-group{
+  margin-left: 23px!important;
+}

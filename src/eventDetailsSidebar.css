@@ -1,0 +1,117 @@
+.Page_Menu_Wrp {
+    margin-bottom: 0px;
+}
+
+.event-details-navbar {
+    width: 100%;
+    background: #007272;
+    color: #ffffff;
+    padding: 20px 20px 7px 20px;
+}
+
+.event-details-navbar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.event-details-navbar ul li {
+    display: inline-block;
+}
+
+.event-details-navbar ul li a {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 10px;
+   
+    text-decoration: none;
+    margin-right: 10px;
+   
+    font-weight: 600;
+}
+
+.event-details-navbar ul li a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.event-details-navbar ul li a.active {
+    background: #ffffff;
+    color: #000000;
+}
+
+.sub-sections {
+    width: 100%;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 10px 0px 3px 20px;
+    border: #ced4da solid 1px;
+    border-bottom: none;
+}
+
+.sub-sections ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.sub-sections ul li {
+    display: inline-block;
+}
+
+.sub-sections ul li a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 13px;
+    background: #ffffff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.sub-sections ul li a img {
+    width: 20px !important;
+    display: none !important;
+}
+
+    .sub-sections ul li a:hover {
+        background: #007272;
+        color: #ffffff;
+    }
+
+    .sub-sections ul li a.active {
+        background: #007272;
+        color: #ffffff; /* Corrected from #ffd800 */
+    }
+    .access-restricted {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid #007b5e;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        margin: 20px auto;
+        width: fit-content;
+      }
+
+      @media (max-width: 768px) {
+        .event-details-navbar ul li {
+       display: block!important;
+    }
+    .event-details-navbar ul li a.active {
+        background:none;
+        color: #ffffff;
+    }
+
+    .sub-sections ul li {
+        display:block;
+    }
+    .sub-sections ul li a.active {
+       background: #ffffff;
+        color: #000000;
+    }
+      }

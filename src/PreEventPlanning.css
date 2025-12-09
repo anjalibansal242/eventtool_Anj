@@ -1,0 +1,28 @@
+.pre-planning {
+  display: flex;
+}
+
+
+
+.main-content {
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.access-restricted {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #007b5e;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  width: fit-content;
+}

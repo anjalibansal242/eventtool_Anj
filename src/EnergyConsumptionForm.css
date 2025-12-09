@@ -1,0 +1,18 @@
+.energy-consumption-form {
+  
+}
+
+    .energy-consumption-form h3 {
+        color: #000000;
+        font-weight:600;
+        font-size:17px;
+    }
+
+
+.eventSpace {
+    display: flex;
+    gap: 10px;
+}
+
+
+

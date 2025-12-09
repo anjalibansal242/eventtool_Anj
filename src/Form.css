@@ -1,0 +1,160 @@
+
+.App {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #f0f4f8;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+width: 80%;
+max-width: 100%;
+height: 90vh; 
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+overflow: hidden;
+}
+
+
+
+
+.form-section {
+flex: 1;
+padding: 20px; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media (max-width: 768px) {
+.container {
+  flex-direction: column;
+  height: auto; 
+}
+.image-section, .form-section {
+  flex: none;
+  width: 100%;
+}
+}
+
+
+
+.name-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name-group input {
+  width: 55%;
+  padding: 20px;
+  margin-right: 2%;
+  border: 1px solid #070707; 
+  border-radius: 4px;
+  outline: none; 
+  transition: border-color 0.5s ease; 
+}
+
+.name-group input:last-child {
+  width: 100%;
+}
+
+
+
+
+/*.form-group input {
+    flex: 2;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border: 1px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(7, 7, 7, 0.4);
+    outline: none;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    font-size: 10px;*/  /*Ensure input fields take the remaining space */
+/*}*/
+
+.form-group input::placeholder {
+  margin-left: 15px; 
+  color: #838282; 
+}
+
+.google-signup,
+.submit-btn {
+  background-color: #4285f4; 
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px; 
+  transition: background-color 0.5s ease, transform 0.2s ease; 
+  box-shadow: 0 0 5px rgba(7, 7, 7, 0.1);
+}
+
+.google-signup:hover,
+.submit-btn:hover {
+  background-color: #357ae8; 
+  transform: scale(1.05); 
+}
+
+.submit-btn {
+  background-color: #328181; 
+}
+
+/* label {
+  font-weight: bold;
+  margin-bottom: 8px;
+} */
+
+
+
+.google-signin-btn {
+  background-color: white; 
+color: black;
+padding: 20px;
+border: none;
+border-radius: 40px; 
+cursor: pointer;
+width: 100%; 
+text-align: center;
+margin-top: 10px; 
+transition: background-color 0.5s ease, transform 0.2s ease;
+box-shadow: 0 0 5px rgba(7, 7, 7, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+
+}
+
+.google-signin-btn img {
+  width: 15px; 
+  margin-right: 10px; 
+}
+
+.google-signin-btn:hover {
+  background-color: #f1f1f1; 
+  transition: background-color 0.5s ease, transform 0.2s ease;
+}
+
+.google-signin-btn .google-logo img {
+  width: 15px; 
+  margin-left: 10px; 
+}
+
+
+.name-group input:focus,
+.form-group input:focus {
+animation: input-focus-animation 0.5s ease;
+}
+
