@@ -1,0 +1,92 @@
+.form-container {
+  padding: 20px;  
+  margin: 150px auto; /* Center the form */
+  width: 60%; /* Decrease the width */
+  font-family: "Barlow condensed", sans-serif;
+  font-style: normal;
+  margin-left: 150px;
+  
+}
+
+.Wastegeneration-form {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px; /* Example maximum width for the form */
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+}
+
+
+.form-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-header div {
+  flex: 1;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+.save {
+  background: #007272;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save:hover {
+  background: #007272;
+}
+.fa-info-circle{
+  font-size: 15px;
+  color: #5a5a5a;
+  cursor: pointer;
+}
+.tooltip-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.tooltip-icon .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #5a5959;
+  color: #f3f0f0;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+.tooltip-icon .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #5a5959 transparent transparent transparent;
+}
+
+.tooltip-icon:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
