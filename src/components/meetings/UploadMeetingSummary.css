@@ -1,0 +1,30 @@
+form{
+    width: 100%;
+}
+
+.GreenWrp{
+    background: #effdf7;
+  }
+  
+  .WhiteWrp{
+    background: #fafafafa;
+  }
+
+  .PlusBtn, .MinusBtn {
+    background: none!important;
+    border: none!important;
+  }
+
+  .PlusBtn .fa, .MinusBtn .fa {
+    font-size: 20px;
+    color: #007272;
+    
+  }
+  .PlusBtn:focus, .MinusBtn:focus {
+    border: none!important;
+    
+  }
+
+  
+
+  
