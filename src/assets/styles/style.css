@@ -1,0 +1,271 @@
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background: #f7f7f7;
+}
+
+.main-content {
+   width:100%;
+   
+
+}
+.White_Box {
+    
+    background: #ffffff;
+    border: #ced4da solid 1px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+    padding:20px;
+}
+
+.table-bordered th {
+    background:#007272;
+    color:#ffffff;
+    font-weight:600;
+}
+.table-bordered th, .table-bordered td {
+   font-size:14px;
+   padding:5px 5px;
+}
+.table-bordered th:first-child {
+    text-align: center!important;
+ }
+.AddEventBtn {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    float: right;
+    background: #007272;
+    margin-left: 10px;
+    height: 37px;
+    
+}
+    .AddEventBtn:hover {
+        color: #ffffff;
+        
+    }
+.searchBar {
+    float: right;
+    width:50%;
+}
+
+.PageNo{
+    font-size:14px;
+}
+
+
+
+
+
+label {
+    font-size:13px!important;
+    font-weight:600;
+}
+
+
+.pageDetailsWrp {
+    border-bottom: #ced4da solid 1px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: right;
+    color: #007272;
+}
+
+.Page_Title h3 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.input-group-text{
+    font-size:13px;
+}
+
+.UploadBtn {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;    
+    background: #007272;
+    margin-left: 10px;
+    height: 37px;
+}
+
+.UploadBtn:hover {
+    color: #ffffff;
+    
+}
+
+.GreenBtn{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;    
+    background: #007272;
+    margin-left: 30px;
+    height: 37px;
+    float: right;
+}
+
+.GreenBtn:hover{
+    color: #ffffff!important;
+    
+}
+
+.GreenLineBtn{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;    
+    border:#007272 solid 1px;
+    margin-left: 10px;
+    height: 37px;
+    float: left;
+    background: #ffffff;
+}
+
+.GreenLineBtn:hover{
+    color: #000000;
+    background: #ffffff!important;
+    
+}
+
+.edit-button:hover{
+    color: #000000;
+    background: #ffffff!important;
+}
+
+.hideDiv{
+    display:none!important;
+}
+
+.W100px{
+    width: 100px;
+}
+
+.Total_Meal_Count{
+    display: none;
+}
+
+/* .PaiChartWrp .card{
+    height: 200px!important;
+    max-height: 200px!important;
+}
+.PaiChartWrp .chart-container{
+    height: auto;
+    max-height: auto;  
+}  */
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;    
+    align-items: left;
+    padding: 15px;
+    display: block;
+}
+.chart-container {  
+    text-align: center;
+    min-height: 490px;
+  
+  }
+  /* table{
+    margin-bottom: 0px!important;
+  } */
+  
+
+  .OnlineMeetingWrp, .OfflineMeetingWrp, .OfflineMeetingSummeryWrp{
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);    
+  padding: 10px;
+  border: #ced4da solid 1px;
+  margin-bottom: 0px;
+  }
+  .modal-header button{
+    margin: 0px;
+  }
+
+  .modal-header button:hover{
+    background: none!important;
+  }
+  
+  
+.modal-footer .btn-secondary{
+    background: #ffffff!important;
+    border: #007272 solid 1px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #000000;
+}
+
+.modal-footer .btn-primary{
+    background: #007272!important;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+
+  /* responsive css */
+
+  @media (max-width: 768px) {
+    .event-details-navbar ul li {
+   display: block!important;
+}
+.event-details-navbar ul li a.active {
+    background:none;
+    color: #ffffff;
+}
+  }
+
+.loaderwrpOuter{
+width: 100px;
+margin: 100px auto;
+background: #ffffff;
+text-align: center;
+border: #ced4da solid 1px;
+padding: 10px;
+}
+  .loaderwrp {
+    border: 10px solid #f3f3f3;    
+    border-top: 10px solid #007272;
+    border-bottom: 10px solid #007272;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+   
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .ML10px{
+    margin-left: 10px;
+  }
