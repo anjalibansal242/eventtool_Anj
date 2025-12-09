@@ -1,0 +1,110 @@
+
+.firstform {
+    
+}
+.formdata {
+    display: inline!important;
+    align-items: center;
+}
+    .formdata label {
+        font-size:13px;
+        font-weight:600;
+    }
+
+    .formdata input[type="text"],
+    .formdata input[type="number"],
+    .formdata select {
+        
+    }
+
+    .formdata input[type="date"] {
+        
+    }
+
+
+.MealsServed,
+.WaterProvision {
+    
+}
+
+.mainMealsServed{
+    margin-left:20px!important;
+    display:block!important;
+}
+
+.mainEmissionBoundary, .mainWaterProvision {
+    gap: 30px !important;
+    margin-left: 20px !important;
+    display: block !important;
+}
+
+
+
+.Map_Iocn {
+    position: absolute;
+    right: 10px;
+    color: #007272;
+    
+}
+
+.mainMealsServed p, .EmissionBoundary p, .SubEmissionBoundary p, .sub-child-container p, .WaterProvision p{
+font-size:13px;
+margin-bottom:5px;
+}
+
+.form-control{
+    font-size:13px;
+}
+
+.firstform h3 {
+    font-size: 1.5em;
+    color: #3d3d3d;
+    font-weight: 600;
+}
+
+.fa-info-circle{
+    font-size: 15px;
+    color: #5a5a5a;
+    cursor: pointer;
+}
+.tooltip-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .tooltip-icon .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the icon */
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+  }
+  
+  .tooltip-icon .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  

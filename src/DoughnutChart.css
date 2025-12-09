@@ -1,0 +1,44 @@
+/* DoughnutChart.css */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.chart-container p {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+
+.chartjs-legend {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start (left) */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.chartjs-legend li {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adjust width to ensure left alignment */
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-size: 14px; /* Adjust text size */
+}
+
+.chartjs-legend span {
+  margin-top: 10px;
+  display: inline-block;
+  width: 10px; /* Adjust color box size */
+  height: 10px; /* Adjust color box size */
+  margin-right: 5px; /* Space between color box and text */
+  background-color: currentColor;
+}

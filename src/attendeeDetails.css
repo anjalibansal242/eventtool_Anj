@@ -1,0 +1,69 @@
+/* Attendee Details */
+.attendee-details {
+  /* margin-top: 20px; */
+  /* margin-left: 30px; */
+}
+
+.email-instruction {
+  margin-bottom: 20px;
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.image-component {
+  margin-bottom: 20px;
+  width: 200px;
+  height: auto;
+  margin-left: 20px;
+}
+
+
+.upload-spreadsheet-button{
+  margin: 0px;
+}
+
+.upload-spreadsheet-button .btn{
+  float: left;
+  
+}
+
+.upload-spreadsheet-button .form-control{
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.access-restricted {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #007b5e;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+
+.width100{
+  width: 100%!important;
+}
+.PlusBtn, .MinusBtn {
+  background: none!important;
+  border: none!important;
+}
+
+.PlusBtn .fa, .MinusBtn .fa {
+  font-size: 20px;
+  color: #007272;
+  
+}
+.PlusBtn:focus, .MinusBtn:focus {
+  border: none!important;
+  
+}
